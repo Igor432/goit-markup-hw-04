@@ -346,7 +346,7 @@ header {
     background-color: var(--blue-color);
 }
 
-.social-icons:hover {
+.team-link>svg:hover {
     fill: #FFFFFF;
 }
 
