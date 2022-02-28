@@ -330,7 +330,9 @@ header {
     height: 44px;
     width: 44px;
     list-style: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
