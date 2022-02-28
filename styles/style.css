@@ -420,6 +420,11 @@ footer {
     padding-top: 12px;
 }
 
+.footer-list {
+    text-align: center;
+    vertical-align: center;
+}
+
 .footer-links {
     display: flex;
     list-style: none;
@@ -428,6 +433,7 @@ footer {
 }
 
 .footer-items {
+    display: inline-block;
     height: 44px;
     width: 44px;
     border-radius: 50%;
