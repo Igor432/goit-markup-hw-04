@@ -327,8 +327,6 @@ header {
 }
 
 .links-item {
-    height: 44px;
-    width: 44px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -336,9 +334,12 @@ header {
 }
 
 .team-links {
+    height: 44px;
+    width: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 
