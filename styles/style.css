@@ -428,7 +428,7 @@ footer {
 }
 
 .footer-items {
-    display: inline-block;
+    display: flex;
     height: 44px;
     width: 44px;
     border-radius: 50%;
