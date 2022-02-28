@@ -191,6 +191,9 @@ header {
     height: 120px;
     background-color: var(--brand-grey);
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quality-list {
@@ -314,7 +317,9 @@ header {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links-list {
@@ -346,8 +351,8 @@ header {
     background-color: var(--blue-color);
 }
 
-.social-icons:hover {
-    background-color: #FFFFFF;
+.team-icons:hover .social-icons {
+    color: #FFFFFF;
 }
 
 
