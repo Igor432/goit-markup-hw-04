@@ -354,6 +354,11 @@ header {
     color: #FFFFFF;
 }
 
+.team-links:hover .social-icons,
+.team-links:focus .social-icons {
+    color: #ffffff;
+}
+
 .social-icons {
     fill: currentColor;
 }
