@@ -139,7 +139,6 @@ header {
 }
 
 .contact-icons {
-    fill: currentColor;
     margin-right: 10px;
 }
 
@@ -351,10 +350,6 @@ header {
     color: #ffffff;
 }
 
-.social-icons {
-    fill: currentColor;
-}
-
 
 /* CLIENTS */
 
@@ -375,12 +370,12 @@ header {
     align-items: center;
 }
 
-.client-icons {
-    fill: currentColor;
-}
-
 .clients-card:hover {
     border-color: var(--blue-color);
+    color: var(--blue-color);
+}
+
+.clients-card:hover use {
     color: var(--blue-color);
 }
 
