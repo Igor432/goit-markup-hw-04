@@ -136,6 +136,10 @@ header {
     color: var(--blue-color);
 }
 
+.contact-icons {
+    margin-right: 10px;
+}
+
 
 /* MAIN BUUTTOONN */
 
