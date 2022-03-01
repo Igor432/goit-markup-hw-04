@@ -116,6 +116,8 @@ header {
     line-height: 1.1;
     text-decoration: none;
     letter-spacing: 0.03em;
+    justify-content: center;
+    align-items: center;
 }
 
 .items:hover {
@@ -138,6 +140,7 @@ header {
 
 .contact-icons {
     fill: currentColor;
+    margin-right: 10px;
 }
 
 .contacts-item:hover .contact-icons {
