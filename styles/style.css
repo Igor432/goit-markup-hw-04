@@ -136,6 +136,10 @@ header {
     color: var(--blue-color);
 }
 
+.contact-icons {
+    fill: currentColor;
+}
+
 .contacts-item:hover .contact-icons {
     color: var(--blue-color);
 }
@@ -348,9 +352,13 @@ header {
     color: #FFFFFF;
 }
 
+.social-icons {
+    fill: currentColor;
+}
+
 .team-links:hover .social-icons,
 .team-links:focus .social-icons {
-    fill: violet;
+    color: var(--blue-color);
 }
 
 
@@ -380,10 +388,6 @@ header {
 
 .client-icons {
     fill: currentColor;
-}
-
-.client-icons {
-    fill: #AFB1B8;
 }
 
 
