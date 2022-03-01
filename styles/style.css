@@ -330,6 +330,10 @@ header {
     align-items: center;
 }
 
+.clients-card:hover {
+    border-color: var(--blue-color);
+}
+
 .clients-card:hover .client-icons {
     fill: var(--blue-color);
 }
