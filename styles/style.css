@@ -132,6 +132,9 @@ header {
     color: var(--blue-color);
 }
 
+
+/*
+
 .mail:hover,
 .mail:focus {
     color: var(--blue-color);
@@ -139,6 +142,15 @@ header {
 
 .tel:hover,
 .tel:focus {
+    color: var(--blue-color);
+}
+*/
+
+.contact-icons {
+    margin-right: 10px;
+}
+
+.contacts-item:hover {
     color: var(--blue-color);
 }
 
