@@ -151,7 +151,7 @@ header {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon.jpg);
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon.jpg);
     max-width: 1600px;
 }
 
@@ -315,7 +315,7 @@ header {
 .member-info {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -348,7 +348,7 @@ header {
 .team-links:hover,
 .team-links:focus {
     background-color: var(--blue-color);
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .social-icons {
@@ -368,7 +368,7 @@ header {
 .clients-card {
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid #afb1b8;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -467,7 +467,7 @@ footer {
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-top: 12px;
 }
 
