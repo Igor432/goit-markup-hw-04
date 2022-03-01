@@ -142,9 +142,8 @@ header {
     color: var(--blue-color);
 }
 
-.contact-icons {
-    margin-right: 10px;
-    fill: var(--p-color);
+.contacts-item:hover .contact-icons {
+    color: var(--blue-color);
 }
 
 
