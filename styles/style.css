@@ -376,7 +376,7 @@ header {
 }
 
 .client-icons:hover {
-    fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 
