@@ -127,21 +127,13 @@ header {
 }
 
 .mail:hover,
-.tel:hover {
+.mail:focus {
     color: var(--blue-color);
 }
 
-.mail:focus,
+.tel:hover,
 .tel:focus {
     color: var(--blue-color);
-}
-
-.mail:hover .contact-icons {
-    fill: var(--blue-color);
-}
-
-.tel:hover .contact-icons {
-    fill: var(--blue-color);
 }
 
 
@@ -320,6 +312,40 @@ header {
     border-radius: 0px 0px 4px 4px;
 }
 
+.links-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.links-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-links {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.team-links:hover,
+.team-links:focus {
+    background-color: var(--blue-color);
+    color: #FFFFFF;
+}
+
+
+/* CLIENTS */
+
 .clients-list {
     list-style: none;
     display: flex;
@@ -347,39 +373,6 @@ header {
 
 .client-icons {
     fill: #AFB1B8;
-}
-
-.links-list {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 16px;
-    list-style: none;
-    cursor: pointer;
-}
-
-.links-item {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.team-links {
-    height: 44px;
-    width: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.team-links:hover {
-    background-color: var(--blue-color);
-}
-
-.team-links:hover .social-icons {
-    fill: #FFFFFF;
 }
 
 
