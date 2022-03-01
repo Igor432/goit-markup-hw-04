@@ -108,12 +108,6 @@ header {
     margin-right: 50px;
 }
 
-.contacts-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .mail,
 .tel {
     color: var(--p-color);
@@ -356,7 +350,7 @@ header {
 
 .team-links:hover .social-icons,
 .team-links:focus .social-icons {
-    fill: #ffffff;
+    fill: violet;
 }
 
 
