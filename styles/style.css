@@ -136,6 +136,14 @@ header {
     color: var(--blue-color);
 }
 
+.mail:hover .contact-icons {
+    fill: var(--blue-color);
+}
+
+.tel:hover .contact-icons {
+    fill: var(--blue-color);
+}
+
 
 /* MAIN BUUTTOONN */
 
@@ -322,6 +330,14 @@ header {
     align-items: center;
 }
 
+.clients-card:hover .client-icons {
+    fill: var(--blue-color);
+}
+
+.client-icons {
+    fill: #AFB1B8;
+}
+
 .links-list {
     display: flex;
     gap: 10px;
@@ -352,7 +368,7 @@ header {
 }
 
 .team-links:hover .social-icons {
-    color: #FFFFFF;
+    fill: #FFFFFF;
 }
 
 
