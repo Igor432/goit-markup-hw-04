@@ -379,8 +379,8 @@ header {
     color: var(--blue-color);
 }
 
-.clients-card:hover .client-icons {
-    fill: var(--blue-color);
+.client-icons {
+    fill: currentColor;
 }
 
 .client-icons {
