@@ -108,6 +108,12 @@ header {
     margin-right: 50px;
 }
 
+.contacts-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .mail,
 .tel {
     color: var(--p-color);
@@ -134,10 +140,6 @@ header {
 .tel:hover,
 .tel:focus {
     color: var(--blue-color);
-}
-
-.contact-icons {
-    margin-right: 10px;
 }
 
 
@@ -346,6 +348,10 @@ header {
 .team-links:focus {
     background-color: var(--blue-color);
     color: #FFFFFF;
+}
+
+.social-icons {
+    fill: currentColor;
 }
 
 
