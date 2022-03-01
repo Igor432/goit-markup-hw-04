@@ -143,10 +143,6 @@ header {
     margin-right: 10px;
 }
 
-.contacts-item:hover .contact-icons {
-    color: var(--blue-color);
-}
-
 
 /* MAIN BUUTTOONN */
 
@@ -359,11 +355,6 @@ header {
     fill: currentColor;
 }
 
-.team-links:hover .social-icons,
-.team-links:focus .social-icons {
-    color: var(--blue-color);
-}
-
 
 /* CLIENTS */
 
@@ -384,13 +375,13 @@ header {
     align-items: center;
 }
 
+.client-icons {
+    fill: currentColor;
+}
+
 .clients-card:hover {
     border-color: var(--blue-color);
     color: var(--blue-color);
-}
-
-.client-icons {
-    fill: currentColor;
 }
 
 
