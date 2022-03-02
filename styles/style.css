@@ -4,6 +4,7 @@
     --h-color: #212121;
     --brand-dark: #2f303a;
     --p-color: #757575;
+    --icons-color: #AFB1B8;
 }
 
 body {
@@ -361,7 +362,7 @@ header {
 }
 
 .social-icons {
-    fill: currentColor;
+    fill: var(--icons-color);
 }
 
 .team-links:hover .social-icons,
@@ -394,7 +395,7 @@ header {
 }
 
 .client-icons {
-    fill: currentColor;
+    fill: var(--icons-color);
 }
 
 .clients-card:hover .client-icons {
@@ -411,7 +412,7 @@ footer {
     display: flex;
 }
 
-.footer-con {
+.footer-container {
     display: flex;
 }
 
