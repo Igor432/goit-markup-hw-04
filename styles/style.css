@@ -4,7 +4,7 @@
     --h-color: #212121;
     --brand-dark: #2f303a;
     --p-color: #757575;
-    --icons-color: #AFB1B8;
+    --icons-color: #afb1b8;
 }
 
 body {
@@ -142,6 +142,7 @@ header {
 .contact-icons {
     fill: currentColor;
     margin-right: 10px;
+    margin-top: 2px;
 }
 
 .tel:hover .contact-icons,
