@@ -103,6 +103,8 @@ header {
     list-style: none;
     display: flex;
     margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .contacts> :first-child {
