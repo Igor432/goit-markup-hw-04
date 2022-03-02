@@ -139,7 +139,18 @@ header {
 }
 
 .contact-icons {
+    fill: currentColor;
     margin-right: 10px;
+}
+
+.tel:hover .contact-icons,
+.tel:focus .contact-icons {
+    fill: var(--blue-color);
+}
+
+.mail:hover .contact-icons,
+.mail:focus .contact-icons {
+    fill: var(--blue-color);
 }
 
 
@@ -347,7 +358,15 @@ header {
 .team-links:hover,
 .team-links:focus {
     background-color: var(--blue-color);
-    color: #ffffff;
+}
+
+.social-icons {
+    fill: currentColor;
+}
+
+.team-links:hover .social-icons,
+.team-links:focus .social-icons {
+    fill: #ffffff;
 }
 
 
@@ -372,11 +391,14 @@ header {
 
 .clients-card:hover {
     border-color: var(--blue-color);
-    color: var(--blue-color);
 }
 
 .client-icons {
-    fill: var(--blue-color);
+    fill: currentColor;
+}
+
+.clients-card:hover .client-icons {
+    color: var(--blue-color);
 }
 
 
@@ -489,9 +511,8 @@ footer {
     background-color: var(--blue-color);
 }
 
-.footer-icon {
-    text-align: center;
-    vertical-align: middle;
+.footer-icons {
+    fill: #ffffff;
 }
 
 
