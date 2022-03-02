@@ -139,10 +139,14 @@ header {
     color: var(--blue-color);
 }
 
+.contacts-item {
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-icons {
     fill: currentColor;
     margin-right: 10px;
-    margin-top: 2px;
 }
 
 .tel:hover .contact-icons,
@@ -400,7 +404,7 @@ header {
 }
 
 .clients-card:hover .client-icons {
-    color: var(--blue-color);
+    fill: var(--blue-color);
 }
 
 
