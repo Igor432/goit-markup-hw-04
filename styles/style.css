@@ -524,7 +524,8 @@ footer {
     vertical-align: middle;
 }
 
-.footer-items:hover {
+.footer-items:hover,
+.footer-items:focus {
     background-color: var(--blue-color);
 }
 
